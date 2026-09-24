@@ -62,7 +62,6 @@ class Decimal:
         if res.count > res._size:
             res._size = res.count
 
-        # Убираем возможные ведущие нули, если складывали 0 + 0
         while res.count > 1 and res.digits[res.count - 1] == 0:
             res.count -= 1
 
