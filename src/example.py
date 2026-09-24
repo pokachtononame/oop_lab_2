@@ -184,7 +184,6 @@ if __name__ == "__main__":
     print(f"r1 - r2 = {r1 - r2}")
     print(f"r1 * r2 = {r1 * r2}")
     print(f"r1 / r2 = {r1 / r2}")
-
     print(f"r1 == r2: {r1 == r2}")
     print(f"r1 != r2: {r1 != r2}")
     print(f"r1 > r2:  {r1 > r2}")
